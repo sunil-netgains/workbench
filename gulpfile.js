@@ -6,7 +6,7 @@ var deploy      = require('gulp-gh-pages');
  */
 gulp.task('deploy', function () {
   return gulp.src("./source/**/*")
-    .pipe(deploy())
+    .pipe(deploy("./dist/**/*"));
 })
 
 // Run gulp's default task 
