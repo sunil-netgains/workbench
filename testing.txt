@@ -1,1 +1,36 @@
 testing gulp git integration
+
+C:\sunil\workbench\wb>gulp
+[12:13:41] Warning: gulp version mismatch:
+[12:13:41] Global gulp is 3.9.1
+[12:13:41] Local gulp is 3.9.0
+[12:13:42] Using gulpfile C:\sunil\workbench\wb\gulpfile.js
+[12:13:42] Starting 'deploy'...
+Fetching origin
+
+local head is Fri May 06 2016 13:43:14 GMT-0400 (Eastern Daylight Time)
+remote head is Fri May 06 2016 13:43:14 GMT-0400 (Eastern Daylight Time)
+nothing to do
+[12:13:43] Finished 'deploy' after 611 ms
+[12:13:43] Starting 'default'...
+[12:13:43] Finished 'default' after 15 μs
+
+C:\sunil\workbench\wb>gulp
+[12:15:17] Warning: gulp version mismatch:
+[12:15:17] Global gulp is 3.9.1
+[12:15:17] Local gulp is 3.9.0
+[12:15:17] Using gulpfile C:\sunil\workbench\wb\gulpfile.js
+[12:15:17] Starting 'deploy'...
+Fetching origin
+
+local head is Fri May 06 2016 13:43:14 GMT-0400 (Eastern Daylight Time)
+remote head is Tue May 10 2016 12:15:11 GMT-0400 (Eastern Daylight Time)
+Updating 936c93b..f1023bf
+Fast-forward
+ testing.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 testing.txt
+
+[12:15:52] Finished 'deploy' after 35 s
+[12:15:52] Starting 'default'...
+[12:15:52] Finished 'default' after 16 μs
